@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 75%, rgba(0, 212, 255, 1) 100%);
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.gradient-navbar {
+    background: linear-gradient(281deg,rgba(2, 21, 23, 1) 0%, rgba(64, 11, 161, 1) 100%);
+  }
+
+.banner-produk-page {
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/wowmonitor.jpeg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.list-group-item.active {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.card {
+    background-color: #1a294d;
+    border: 1px solid #2d3e6e;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card:hover {
+    background-color: #213564;
+}
+
+.card .card-title {
+    color: #ffffff;
+}
+
+.list-group-item {
+    background-color: #1a294d;
+    color: #e0e0e0;
+    border: 1px solid #2d3e6e;
+}
+
+a.list-group-item:hover {
+    background-color: #213564;
+    color: #ffffff;
+}
+
+.list-group-item.active {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: #1a294d;
+    color: #ffffff;
+    border: 1px solid #2d3e6e;
+}
+
+.form-control::placeholder {
+    color: #8c96b1;
+}
+
+.form-control:focus {
+    background-color: #1a294d;
+    color: #ffffff;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

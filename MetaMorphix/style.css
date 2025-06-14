@@ -1,0 +1,103 @@
+  body {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 75%, rgba(0, 212, 255, 1) 100%)
+  }
+  
+  .warna-1 {
+    background-color: #5409DA;
+  }
+
+  .warna-2 {
+    background-color: #4E71FF;
+  }
+
+  .warna-3 {
+    background-color: #8DD8FF;
+  }
+
+  .warna-4 {
+    background-color: #BBFBFF;
+  }
+
+  .gradient-navbar {
+    background: linear-gradient(281deg,rgba(2, 21, 23, 1) 0%, rgba(64, 11, 161, 1) 100%);
+  }
+  
+  .banner-produk {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/steptodown.com762394.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-highlight {
+    height: 350px;
+    border: none; 
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-highlight:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-highlight .card-img-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    border-radius: 15px;
+}
+
+.card-highlight .card-title {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-hover-text {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  .card-highlight:hover .card-hover-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.produk-keyboard {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("img/michelle-ding-sfKigQv7viY-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.produk-mouse {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("img/higor-hanschen-RlVOjTkq1j8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.produk-headset {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("img/rezwan-ahmed-C1uFlpNdQh0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.produk-monitor {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("img/66b52df1d3dbb-deretan-monitor-gaming-ultrawide-terbaik-2024_teknodaily.jpg");
+  background-size: cover;
+  background-position: center;
+}
